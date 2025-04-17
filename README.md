@@ -1,16 +1,56 @@
-# my_first_app
+# Менеджер задач на Flutter
 
-A new Flutter project.
+Простое приложение для управления задачами, написанное на Flutter.
 
-## Getting Started
+## Функциональность
 
-This project is a starting point for a Flutter application.
+- Добавление новых задач
+- Удаление выбранных задач
+- Редактирование существующих задач
+- Очистка всего списка задач
+- Выбор задачи касанием
+- Валидация ввода
+- Подтверждение опасных действий
 
-A few resources to get you started if this is your first Flutter project:
+## Установка
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Убедитесь, что у вас установлен Flutter SDK
+2. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/vi21g/52-lesson.git
+   ```
+3. Перейдите в директорию проекта:
+   ```bash
+   cd task-manager-flutter
+   ```
+4. Запустите приложение:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Использование
+
+1. Введите задачу в текстовое поле и нажмите "Добавить" или Enter
+2. Для выбора задачи коснитесь её в списке
+3. Используйте кнопки:
+   - "Удалить" - удаляет выбранную задачу
+   - "Редактировать" - открывает диалог редактирования выбранной задачи
+   - "Очистить все" - удаляет все задачи (с подтверждением)
+
+## Структура кода
+
+- `main()` - точка входа в приложение
+- `TaskManagerApp` - корневой виджет приложения
+- `TaskManagerHomePage` - главный экран с StatefulWidget
+  - Управление списком задач
+  - Обработка добавления/удаления/редактирования
+  - Диалоговые окна
+
+## Зависимости
+
+Только Flutter SDK (без дополнительных пакетов)
+
+## Скриншоты
+
+<!-- Вставьте реальные скриншоты вашего приложения -->
+
